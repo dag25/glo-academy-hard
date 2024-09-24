@@ -38,3 +38,13 @@ namePerson === 'Артем'
 		: namePerson === 'Александр'
 		? console.log('преподаватель')
 	: console.log('студент');
+
+const lesson04 = function (value) {
+	if (typeof value !== 'string') {
+		return 'Это не строка';
+	} else {
+		return value.trim().length > 30 ? value.trim().slice(0, 30) + '...' : value.trim()
+	}
+};
+console.log(lesson04(45));
+console.log(lesson04('1234567890123456789012345678901234567890'));
