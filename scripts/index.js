@@ -48,3 +48,5 @@ const lesson04 = function (value) {
 };
 console.log(lesson04(45));
 console.log(lesson04('1234567890123456789012345678901234567890'));
+
+
